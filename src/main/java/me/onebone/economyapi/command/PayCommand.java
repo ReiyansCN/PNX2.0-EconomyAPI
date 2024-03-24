@@ -38,8 +38,8 @@ public class PayCommand extends Command {
         // command parameters
         commandParameters.clear();
         commandParameters.put("default", new CommandParameter[]{
-                new CommandParameter("player", CommandParamType.TARGET, false),
-                new CommandParameter("amount", CommandParamType.FLOAT, false)
+                CommandParameter.newType("player", false,CommandParamType.TARGET),
+                CommandParameter.newType("amount", false,CommandParamType.FLOAT)
         });
     }
 

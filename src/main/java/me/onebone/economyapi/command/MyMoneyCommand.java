@@ -37,7 +37,7 @@ public class MyMoneyCommand extends Command {
 
         commandParameters.clear();
         commandParameters.put("default", new CommandParameter[]{
-                new CommandParameter("player", CommandParamType.TARGET, false)
+                CommandParameter.newType("player", false,CommandParamType.TARGET)
         });
     }
 

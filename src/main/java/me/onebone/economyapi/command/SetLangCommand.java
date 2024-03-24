@@ -37,7 +37,7 @@ public class SetLangCommand extends Command {
         // command parameters
         commandParameters.clear();
         commandParameters.put("default", new CommandParameter[]{
-                new CommandParameter("ccTLD", CommandParamType.STRING, false)
+                CommandParameter.newType("ccTLD", false,CommandParamType.STRING)
         });
     }
 
