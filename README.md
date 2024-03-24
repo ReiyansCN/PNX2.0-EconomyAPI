@@ -1,5 +1,5 @@
 # EconomyAPI
-Core of economy system for Nukkit
+Core of economy system for PowerNukkit2.0
 
 ## Commands
  - /mymoney
